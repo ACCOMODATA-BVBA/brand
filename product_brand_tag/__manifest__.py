@@ -3,8 +3,9 @@
 {
     "name": "Product brand tags",
     "summary": "Add tags to product brand",
-    "version": "14.0.1.1.1",
-    "author": "Camptocamp, Odoo Community Association (OCA)",
+    "version": "15.0.1.0.0",
+    "author": "Camptocamp, Odoo Community Association (OCA), "
+              "ACCOMODATA-BVBA",
     "license": "AGPL-3",
     "category": "Product",
     "depends": [
@@ -17,5 +18,5 @@
         "views/product_brand_view.xml",
         "views/product_brand_tag_view.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

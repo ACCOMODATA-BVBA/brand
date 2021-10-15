@@ -9,13 +9,13 @@
 
 {
     "name": "Product Brand Manager",
-    "version": "14.0.1.1.0",
+    "version": "15.0.1.0.0",
     "development_status": "Mature",
     "category": "Product",
     "summary": "Product Brand Manager",
     "author": "NetAndCo, Akretion, Prisnet Telecommunications SA, "
     "MONK Software, SerpentCS Pvt. Ltd., Tecnativa, Kaushal "
-    "Prajapati, Odoo Community Association (OCA)",
+    "Prajapati, Odoo Community Association (OCA), " "ACCOMODATA-BVBA",
     "website": "https://github.com/OCA/brand",
     "license": "AGPL-3",
     "depends": ["sale"],
@@ -25,6 +25,6 @@
         "reports/sale_report_view.xml",
         "reports/account_invoice_report_view.xml",
     ],
-    "installable": True,
+    "installable": False,
     "auto_install": False,
 }
